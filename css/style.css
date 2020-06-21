@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0.75rem;
+    
+}
+
+@media(max-width:500px) {
+    header {
+        text-align: center;
+    }
+
+    #navbar {
+        box-sizing: content-box;
+    }
+    a {
+        text-align: center;
+        display: block;
+    }
+  
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0;
+}
+
+header {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+code {
+    display: block;
+    background-color: #f7f7f7;
+    position: relative;
+    
+}
+
+#navbar {
+    float: left;
+    border: 2px solid;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    
+}
+
+.navbar__title {
+    font-weight: bold;
+}
+
+
+#main-doc {
+    overflow: hidden;
+    margin-left: 25%;
+}
+
+#Reference ul li a{
+    text-decoration: underline;
+}
+
